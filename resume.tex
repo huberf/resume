@@ -1,0 +1,78 @@
+%% start of file 'template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[letterpaper]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\usepackage{textcomp}
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+    % Profile
+\name{Noah Huber-Feely}{}
+\address{265 Sacred Earth Ln.}
+\phone[mobile]{931-636-8567}
+\email{nhuberfeely@gmail.com}
+\homepage{github.com/huberf}
+    \begin{document}
+\makecvtitle
+\section{Education}
+\cventry
+{Expected 2021}
+{BS in Computer Science}
+{Columbia University}
+{}
+{\textit{New York, NY}}
+{}
+\section{Experience}
+\cventry
+{Oct 2016 -- Present}
+{CTO}
+{LifeTriage}
+{Huntsville, AL}
+{}
+{\begin{itemize}%
+	\item Handled all development initiates and constructed fully featured mobile apps for iOS and Android along with a robust web app.
+	\item Integrated modern technologies for fast performance.
+	\end{itemize}}
+\cventry
+{Mar 2016 -- Present}
+{Business Owner}
+{Noah's Arc Development}
+{Winchester, TN}
+{}
+{\begin{itemize}%
+	\item  Built back-end APIs, mobile apps and web sites.
+	\item  As needed, delegated tasks to others.
+	\end{itemize}}
+\section{Skills}
+\cvitem{Languages}{JavaScript, C++, Python, Java, R}
+\cvitem{Markup}{HTML, LaTeX, Markdown}
+\cvitem{Frameworks}{React Native, Node.js, Express}
+\cvitem{Utilities}{VIM, Visual Studio Code, AWS, Xcode, Android Studio}
+\section{Projects}
+\cventry
+{}
+{Personal Assistant and Learner (PAL)}
+{}
+{\textit{Natural Language Processing, Machine Learning}}
+{}
+{A robust voice and text UI with full support for natural language processing and a robust skills system spanning many domains.\\github.com/huberf/pal}
+\vspace{1mm}
+    
+\ 
+\end{document}
