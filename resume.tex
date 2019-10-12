@@ -30,6 +30,7 @@
 \homepage{github.com/huberf}
     \begin{document}
 \makecvtitle
+\vspace*{-5mm} % To decrease margin below header block
 \section{Education}
 \cventry
 {Expected 2021}
@@ -45,15 +46,26 @@
 	\end{itemize}}
 \section{Experience}
 \cventry
+{Jun 2019 -- Aug 2019}
+{Software Engineering Intern}
+{Bear Flag Robotics}
+{Sunnyvale, CA}
+{}
+{\begin{itemize}%
+	\item Architected and developed from the ground up their autonomous tractor path generation utility, enabling them to perform their first full farm operation. Managed the paths for the 6 field operations that summer.
+	\item Developed an efficient path parametrization and designed fitting algorithms for heuristically optimal coverage and implement performance in any farm field, enabling them to complete the next year of their milestone plan. The tool generates paths 13x faster than their previous utility even while handling arbitrary polygons.
+	\item Collaborated on ROS stack with team of 7 engineers. Concurrently participated in the TEC Fellowship.
+	\end{itemize}}
+\cventry
 {May 2018 -- Aug 2018}
 {Software Engineering Intern}
 {Chartbeat}
 {New York, NY}
 {}
 {\begin{itemize}%
-	\item Worked on every component of the stack (React front-end to Python back-end and Redshift views) with a primary focus on back-end development intermixed with developing idiomatic React and Angular components.
-	\item Enhanced query speeds by up to 80\% through heuristic computation
-	\item Launched their historical analytics product out of beta. Developed majority of new product features and performance improvements. Launch led to their all-time highest  customer use of historical analytics.
+	\item Worked on every component of the stack (from React to their Python and Redshift back-end). Primarily focused on the back-end and connection to idiomatic React and Angular components.
+	\item Enhanced query speeds by up to 80\% through heuristic computation.
+	\item Launched their historical analytics product out of beta. Developed majority of new product features and performance improvements. Resulted in all-time highest customer use (210\% higher) of historical analytics.
 	\item Advised product vision and built most projects from the front-end design stage to the back-end changes.
 	\item Concurrently participated in the HackNY Fellowship, gaining a foundation in the startup world.
 	\end{itemize}}
@@ -65,7 +77,7 @@
 {}
 {\begin{itemize}%
 	\item Lead all current development and independently constructed \& deployed mobile apps for iOS and Android along with a robust web app using React Native, node.js and a MongoDB back-end. (\href{https://ctips.lifetriage.com}{ctips.lifetriage.com})
-	\item Improved loading time by over 120\% with WebSockets and developed algorithms for recommendations based on collected user data.
+	\item Improved loading time by over 120\% with WebSockets and developed algorithms for recommendations based on collected user data. Pioneered TensorFlow based career recommendation system
 	\item Directed user testing and analytics, including A/B testing, increasing user engagement 300\%.
 	\end{itemize}}
 \cventry
@@ -91,6 +103,7 @@
 	\item  Additional payment option integration led to 30\% more transactions.
 	\end{itemize}}
 \fi
+\iffalse
 \cventry
 {May 2015 -- Sep 2015}
 {Computer Science Teacher}
@@ -100,7 +113,18 @@
 {\begin{itemize}%
 	\item  Crafted individualized lessons from fundamentals to machine vision for 40 students and built a Wordpress site with lessons for at home learning. Taught K-12 students each Saturday at Winchester Public Library.
 	\end{itemize}}
+\fi
     \section{Leadership \& Projects}
+\cventry
+{Jan 2018 - Present}
+{Clara Conversational Agent System - Personal}
+{}
+{\textit{NLP, Weak AI}}
+{New York, NY}
+{\begin{itemize}%
+	\item Engineered a Python PIP package that uses natural language processing techniques to handle small talk queries to chat bot based systems on top of existing frameworks. (github.com/huberf/clara-pip)
+\end{itemize}}
+\iffalse
 \cventry
 {Jan 2015 - Present}
 {Personal Assistant and Learner (PAL) - Personal}
@@ -110,6 +134,8 @@
 {\begin{itemize}%
 	\item Developed a robust voice and text UI handling both intent parsing as well as execution of "skills" built on the skills framework. Employs TensorFlow to determine context. (github.com/huberf/pal)
 \end{itemize}}
+\fi
+\iffalse
 \cventry
 {Sep 2015 - Aug 2016}
 {Hop Around Huntsville - President}
@@ -119,6 +145,7 @@
 {\begin{itemize}%
 \item Constructed back-end system built for Huntsville, AL government to publicly track their bus network. Employs websockets for real time location delivery. (github.com/codeforhuntsville/transitTracks)
 \end{itemize}}
+\fi
 \cventry
 {Sep 2016 - Present}
 {Quantified Self - Personal}
@@ -133,9 +160,9 @@ completion rate) and write systems to analyze and offer suggestions to improve m
     
 \ 
 \section{Skills}
-\cvitem{Languages}{JavaScript, Python, Java, C++, Clojure (intermediate), HTML, LaTeX, SQL, CSS}
-\cvitem{Frameworks}{React Native, Node.js, Express.js, Socket.io, Amazon Alexa, React, Angular, TensorFlow (intermediate)}
-\cvitem{Utilities}{Git, Vim, Bash, MongoDB, PostgreSQL, AWS S3, Xcode, Android Studio}
+\cvitem{Languages}{JavaScript, Python, R, Java, C++, Clojure (intermediate), HTML, LaTeX, SQL, CSS}
+\cvitem{Frameworks}{React Native, Node.js, Express.js, Socket.io, ROS, React, Angular, TensorFlow (intermediate)}
+\cvitem{Utilities}{Git, Vim, Bash, MongoDB, Redis, PostgreSQL, AWS S3, Xcode, Android Studio, Docker}
 %\cvitem{Passions}{Running, Quantified Self, Science Fiction}
 
 \end{document}
